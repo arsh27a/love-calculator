@@ -1,0 +1,43 @@
+* {
+  color: white;
+  background-color: #b4001b;
+}
+#heading {
+  margin-top: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+#subHeading {
+  text-align: center;
+  margin-top: 20px;
+}
+section {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 240px;
+}
+.inputName {
+  border-radius: 30px;
+  border: 3px solid white;
+  margin-right: 200px;
+  height: 40px;
+  margin-left: 8px;
+}
+.submitButton {
+  height: 90px;
+  width: 390px;
+  font-size: 35px;
+  border-radius: 30px;
+  border: 3px solid #b4001b;
+  background-color: white;
+  color: #b4001b;
+}
+#submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
