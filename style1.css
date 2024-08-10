@@ -1,6 +1,7 @@
 * {
   color: white;
   background-color: #b4001b;
+  text-shadow: 2px 2px 4px #000000;
 }
 #heading {
   margin-top: 1.8rem;
@@ -18,13 +19,16 @@ section {
   display: flex;
   align-items: center;
   margin-left: 240px;
+  text-shadow: 0;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .inputName {
   border-radius: 30px;
   border: 3px solid white;
-  margin-right: 200px;
+  margin-right: 298px;
+  color: white;
   height: 40px;
-  margin-left: 8px;
+  margin-left: 47px;
 }
 .submitButton {
   height: 90px;
@@ -40,4 +44,34 @@ section {
   align-items: center;
   justify-content: center;
   margin-top: 70px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+/* media query */
+@media (max-width: 680px) {
+  #heading {
+    font-size: 40px;
+    text-align: center;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  #submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .submitButton {
+    height: 60px;
+    width: 280px;
+    font-size: 25px;
+  }
+  .label {
+    text-align: center;
+  }
+  .input {
+    margin-bottom: 15px;
+  }
 }
