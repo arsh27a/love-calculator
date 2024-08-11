@@ -7,8 +7,12 @@ function getRandomNumber() {
 const handleClick = () => {
   let userName = document.getElementById("userInput").value;
   let partnerName = document.getElementById("partnerInput").value;
-  let number = getRandomNumber();
-  alert(`${userName} love percentage with ${partnerName} is ${number}`);
+  if (userName.length === 0 && partnerName.length === 0) {
+    alert("Enter your or your partner name");
+  } else {
+    let number = getRandomNumber();
+    alert(`${userName} love percentage with ${partnerName} is ${number}`);
+  }
 };
 
 document.getElementById("submitBtn").addEventListener("click", handleClick);
