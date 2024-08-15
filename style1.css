@@ -26,8 +26,10 @@ section {
   border: 3px solid white;
   margin-right: 298px;
   color: white;
-  height: 40px;
-  margin-left: 47px;
+  height: 64px;
+  width: 250px;
+  font-size: 22px;
+  margin-left: 128px;
 }
 .submitButton {
   height: 90px;
